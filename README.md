@@ -18,3 +18,12 @@ If you feel like there's a major problem, please open an issue to discuss the pr
 ## License
 
 MIT
+
+
+## making concept solid
+
+* Store consist of state and some helper function to manage the state.
+* All data is stored in a single object called state tree.
+* what is ## data in this app ? Answer: tweets, users, authedUsers.
+* So our state tree consist a slice of tweets data, users data, authUsers data.
+
