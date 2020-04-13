@@ -3,7 +3,7 @@ import { combineReducers } from "redux";
 import tweets from "./tweets";
 import users from "./users";
 import authedUser from "./authedUser";
-
+import {loadingBarReducer} from 'react-redux-loading'
 // we have to make combineReducers function, as createStore function only accepts one Reducer as a parameter.
 // Functionality of combineReducer?
 // a: combine all reducer into one main root reducer, which will combine the results of calling
@@ -13,4 +13,5 @@ export default combineReducers({
 	tweets,
 	users,
 	authedUser,
+	loadingBar:loadingBarReducer
 });
